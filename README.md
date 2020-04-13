@@ -6,13 +6,17 @@ It uses Adafruit_DHT Library to read the DHT sensor data from DHT sensor connect
 It also import google.cloud to connect python program to connect to google cloud service.
 
 
-#Beofre running export below environment variable to set project details
+#Beofre running export below environment variable to set project details:
+
 (env) pi@raspberrypi:~/Desktop/IOT/DHT/Sensor-data-to-google-cloud $ export GOOGLE_APPLICATION_CREDENTIAL="path to service account json file"
+
 (env) pi@raspberrypi:~/Desktop/IOT/DHT/Sensor-data-to-google-cloud $ export TOPIC_NAME="iot_sensor_dht"
+
 (env) pi@raspberrypi:~/Desktop/IOT/DHT/Sensor-data-to-google-cloud $ export PROJECT_ID=google_cloud_project_id
 
 
 #Initialize sensor type and pin number in code before start running.
+
 sensor = DHT.DHT11 // DHT type
 pin = 4 // Raspberry PI GPIO pin connected to DHT sensor
 
