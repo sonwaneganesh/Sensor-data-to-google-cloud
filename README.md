@@ -18,8 +18,11 @@ It also import google.cloud to connect python program to connect to google cloud
 #Initialize sensor type and pin number in code before start running.
 
 sensor = DHT.DHT11 // DHT type
+
 pin = 4 // Raspberry PI GPIO pin connected to DHT sensor
 
+
 #Run the below command to srtart the Sensor program
+
 (env) pi@raspberrypi:~/Desktop/IOT/DHT/Sensor-data-to-google-cloud $ python publish_dht.py
 
