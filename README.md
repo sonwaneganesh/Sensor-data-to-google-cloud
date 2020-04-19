@@ -25,14 +25,12 @@ pin = 4 // Raspberry PI GPIO pin connected to DHT sensor
 #Run the below command to srtart the Sensor program
 
 
+(env) pi@raspberrypi:~/Desktop/IOT/DHT/Sensor-data-to-google-cloud $ python publish_dht.py
+
 
 
 # Generate the EC key for Display device.
 
 Please run the ./generate_ec_keys.sh on google cloud shell to generate the EC key pair.
 
-
-
-
-(env) pi@raspberrypi:~/Desktop/IOT/DHT/Sensor-data-to-google-cloud $ python publish_dht.py
 
